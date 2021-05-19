@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<h1>Javascript Second Program</h1>
+		
+	</head>
+	
+	<body>
+	<script>
+		var date=new Date();
+		document.write(date+"</br>");
+		document.write(date.getDate()+"</br>");
+		document.write(date.getDay()+"</br>");
+		var x=date.getDay();
+		switch(x)
+	{
+		case 0: document.write("Sunday");
+			break;
+	
+		case 1: document.write("Monday");
+			break;
+		case 2: document.write("Tuesday");
+			break;
+		case 3: document.write("wednesday");
+			break;
+		case 4: document.write("Thursday");
+			break;
+		case 5: document.write("Friday");
+			break;
+		case 6: document.write("Saturday");
+			break;
+		default: document.write("Wrong choice");
+			
+	}
+	document.write("</br>");
+		document.write(date.getMonth()+"</br>");
+		document.write(date.getFullYear()+"</br>");
+		document.write(date.getHours()+"</br>");
+		document.write(date.getMinutes()+"</br>");
+		document.write(date.getSeconds()+"</br>");
+
+	
+	</script>
+	</body>
+
+</html>
